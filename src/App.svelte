@@ -25,9 +25,9 @@
   /***********************************/
 
   let { solana } = window as any;
-  const rpcUrl = import.meta.env.VITE_APP_SOLANA_RPC_HOST?.toString();
-  const cluster = import.meta.env.VITE_APP_SOLANA_NETWORK?.toString();
-  const candyMachineId = import.meta.env.VITE_APP_CANDY_MACHINE_ID?.toString();
+  const rpcUrl = "https://metaplex.devnet.rpcpool.com/"
+  const cluster = "devnet"
+  const candyMachineId = "31hvoGGGuw4Wf8a4Nn5FZDAXhGhK6cCQ55BnBopkJEoh"
   const opts = { preflightCommitment: "processed" };
 
   let siteLoading = true;
