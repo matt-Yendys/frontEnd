@@ -16,7 +16,7 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Spookiez";
+  const TITLE = "Spookies";
   const DESCRTIPTION = "A collection of spooky bois on the blockchain";
   const HEADER_TITLE = "spooky url ";
   const HEADER_LINK = "https://solarare.com";
