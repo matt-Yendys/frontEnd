@@ -5,6 +5,7 @@
   import { fade } from "svelte/transition";
   import Button from "./components/Button.svelte";
   import Header from "./components/CardHeader.svelte";
+  import Discord from "./assets/discord.svg"
 
   import { candyMachineState, userState } from "./lib/store";
   import {
@@ -131,6 +132,11 @@
         class="text-black tracking-widest underline underline-offset-4 decoration-2 font-mono"
         >{HEADER_TITLE}</a
       >
+      <a
+        href={DiscordLink}
+        >
+      <img src={Discord} alt="" class="w-1/10 mx-auto m-1" />
+      </a>
     {/if}
     <!-- Card -->
     <div
