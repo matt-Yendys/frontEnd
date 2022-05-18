@@ -133,14 +133,14 @@
         >{HEADER_TITLE}</a
       >
       <a
-        href={DiscordLink}
+        href="https://github.com/matt-Yendys"
         >
-      <img src={Discord} alt="" class="w-1/10 mx-auto m-1" />
+      <img src={Discord} alt="" class="w-1/12 mx-auto m-2" />
       </a>
     {/if}
     <!-- Card -->
     <div
-      class=" max-w-lg mx-auto bg-white rounded-lg my-12  border-2"
+      class=" max-w-lg mx-auto bg-white rounded-lg border-2"
       transition:fade
     >
       <!-- Top Bar -->
