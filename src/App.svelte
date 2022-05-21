@@ -17,8 +17,8 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Spookies";
-  const DESCRTIPTION = "A collection of spooky bois on the blockchain";
+  const TITLE = "Noahs NFT";
+  const DESCRTIPTION = "A collection of Noahs on the blockchain";
   const HEADER_TITLE = "spooky url ";
   const HEADER_LINK = "https://solarare.com";
   // Your image or GIF needs to be in the /public folder for this to work
@@ -28,7 +28,7 @@
   let { solana } = window as any;
   const rpcUrl = "https://metaplex.devnet.rpcpool.com/"
   const cluster = "devnet"
-  const candyMachineId = "31hvoGGGuw4Wf8a4Nn5FZDAXhGhK6cCQ55BnBopkJEoh"
+  const candyMachineId = "73VZX67sFKZrtwcm1BBSGidWcoQwLo3Qxgc6ebmi4HBJ"
   const opts = { preflightCommitment: "processed" };
 
   let siteLoading = true;
